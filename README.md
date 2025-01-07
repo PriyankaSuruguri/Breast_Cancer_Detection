@@ -8,12 +8,10 @@ Breast cancer is one of the leading causes of death among women worldwide. Early
 ## Key Features
 - Dataset: The dataset consists of 3,383 mammogram images annotated with two categories: benign and malignant. These images are preprocessed for use in deep learning models.
 - Model Architecture: The project uses a Convolutional Neural Network (CNN) to extract features from mammogram images and classify them into benign or malignant categories.
-- Data Preprocessing:
+#### Data Preprocessing:
 - Auto-orientation: EXIF orientation metadata is stripped to ensure correct image orientation.
-- Resizing: Images are resized to 640x640 pixels to ensure consistency and compatibility with the model.
 - Loss Function & Metrics: Binary cross-entropy loss is used, and the model’s performance is evaluated using accuracy as the primary metric.
-- Handling Class Imbalance: Techniques like weighted loss functions and data augmentation (e.g., rotations, flipping) are applied to manage class imbalance and improve model generalization.
-- 
+
 ## How This Helps?
 This breast tumor detection system has several key applications:
 - Early Cancer Detection: The model can assist in the early diagnosis of breast cancer, potentially saving lives by detecting malignant tumors in mammograms.
@@ -35,3 +33,12 @@ Packages Used:
 
 ## Confusion Matrix:
 A confusion matrix can be used to evaluate the performance of the model, showing the number of true positives, true negatives, false positives, and false negatives.
+#### Preprocessing
+The following preprocessing steps have been applied to the images before training the model:
+- Auto-orientation: The pixel data is auto-oriented to strip any EXIF orientation metadata that might distort image alignment.
+- Image Resizing: All images are resized to 640x640 pixels to standardize the input size for the neural network.
+
+## Future Directions
+- Model Improvement: The model could be improved by exploring deeper architectures, such as ResNet or VGG16, or utilizing transfer learning from pretrained models.
+- Hyperparameter Tuning: Fine-tuning hyperparameters, such as learning rate and batch size, could lead to better performance.
+- Dataset Expansion: Including more diverse data from different sources can improve the generalization of the model.
