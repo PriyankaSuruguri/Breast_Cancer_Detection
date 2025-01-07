@@ -5,12 +5,6 @@ This project focuses on Breast Tumor Detection using deep learning models, with 
 ## Abstract
 Breast cancer is one of the leading causes of death among women worldwide. Early detection through automated systems can significantly improve survival rates. This project explores the use of deep learning models to detect and classify tumors in mammogram images. The dataset contains images labeled as benign or malignant, which are used to train and evaluate the performance of convolutional neural networks (CNNs).
 
-## Key Features
-- Dataset: The dataset consists of 3,383 mammogram images annotated with two categories: benign and malignant. These images are preprocessed for use in deep learning models.
-- Model Architecture: The project uses a Convolutional Neural Network (CNN) to extract features from mammogram images and classify them into benign or malignant categories.
-- Auto-orientation: EXIF orientation metadata is stripped to ensure correct image orientation.
-- Loss Function & Metrics: Binary cross-entropy loss is used, and the model’s performance is evaluated using accuracy as the primary metric.
-
 ## How This Helps?
 This breast tumor detection system has several key applications:
 - Early Cancer Detection: The model can assist in the early diagnosis of breast cancer, potentially saving lives by detecting malignant tumors in mammograms.
