@@ -13,3 +13,25 @@ Breast cancer is one of the leading causes of death among women worldwide. Early
 - Resizing: Images are resized to 640x640 pixels to ensure consistency and compatibility with the model.
 - Loss Function & Metrics: Binary cross-entropy loss is used, and the model’s performance is evaluated using accuracy as the primary metric.
 - Handling Class Imbalance: Techniques like weighted loss functions and data augmentation (e.g., rotations, flipping) are applied to manage class imbalance and improve model generalization.
+- 
+## How This Helps?
+This breast tumor detection system has several key applications:
+- Early Cancer Detection: The model can assist in the early diagnosis of breast cancer, potentially saving lives by detecting malignant tumors in mammograms.
+- Medical Imaging: The system can be used in medical imaging to automate and speed up the analysis of mammograms, reducing the workload of healthcare professionals.
+- Research in Healthcare: The model can support research in the field of breast cancer detection, improving diagnostic tools and methods.
+
+## Resources
+Packages Used:
+- pandas
+- numpy
+- sklearn
+- matplotlib
+- tensorflow
+- opencv-python
+
+## Model Evaluation
+- Accuracy: The model achieves an accuracy of approximately 85-90% on the test set, reflecting its ability to classify mammogram images into benign and malignant categories with reasonable success.
+- Challenges: Despite using data augmentation and handling class imbalance, there is potential for further improvement in the model's performance.
+
+## Confusion Matrix:
+A confusion matrix can be used to evaluate the performance of the model, showing the number of true positives, true negatives, false positives, and false negatives.
