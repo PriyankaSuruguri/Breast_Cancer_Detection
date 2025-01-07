@@ -8,7 +8,6 @@ Breast cancer is one of the leading causes of death among women worldwide. Early
 ## Key Features
 - Dataset: The dataset consists of 3,383 mammogram images annotated with two categories: benign and malignant. These images are preprocessed for use in deep learning models.
 - Model Architecture: The project uses a Convolutional Neural Network (CNN) to extract features from mammogram images and classify them into benign or malignant categories.
-#### Data Preprocessing:
 - Auto-orientation: EXIF orientation metadata is stripped to ensure correct image orientation.
 - Loss Function & Metrics: Binary cross-entropy loss is used, and the model’s performance is evaluated using accuracy as the primary metric.
 
@@ -33,7 +32,6 @@ Packages Used:
 
 ## Confusion Matrix:
 A confusion matrix can be used to evaluate the performance of the model, showing the number of true positives, true negatives, false positives, and false negatives.
-#### Preprocessing
 The following preprocessing steps have been applied to the images before training the model:
 - Auto-orientation: The pixel data is auto-oriented to strip any EXIF orientation metadata that might distort image alignment.
 - Image Resizing: All images are resized to 640x640 pixels to standardize the input size for the neural network.
